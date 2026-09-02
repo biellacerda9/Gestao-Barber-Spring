@@ -4,8 +4,8 @@ Objetivo: aprender testes automatizados do zero, entendendo o "porquê" de cada 
 
 ## Bloco 0 — Setup
 
-- [ ] Adicionar dependências no `pom.xml`: Mockito, Testcontainers (Postgres module), RestAssured, JaCoCo
-- [ ] Criar estrutura de pastas em `src/test/java`:
+- [ok] Adicionar dependências no `pom.xml`: Mockito, Testcontainers (Postgres module), RestAssured, JaCoCo
+- [ok] Criar estrutura de pastas em `src/test/java`:
   ```
   src/test/java/.../
   ├── unit/usecase/
@@ -13,22 +13,22 @@ Objetivo: aprender testes automatizados do zero, entendendo o "porquê" de cada 
   ├── integration/security/
   └── e2e/
   ```
-- [ ] Confirmar Docker rodando localmente (necessário pro Testcontainers)
+- [ok] Confirmar Docker rodando localmente (necessário pro Testcontainers)
 
 ## Bloco 1 — Teste Unitário
 
-- [ ] Escrever `AppointmentUseCaseTest` (JUnit 5 + Mockito)
+- [ ok] Escrever `AppointmentUseCaseTest` (JUnit 5 + Mockito)
   - Regra: bloqueia agendamento duplicado por barbeiro + data
   - Mockar repository, isolar regra de negócio, sem Spring context
-- [ ] Rodar teste isolado (`mvn test -Dtest=AppointmentUseCaseTest`)
-- [ ] Entender: assert, mock, verify, given-when-then
+- [ ok] Rodar teste isolado (`mvn test -Dtest=AppointmentUseCaseTest`)
+- [ok ] Entender: assert, mock, verify, given-when-then
 
 ## Bloco 2 — Teste de Integração
 
-- [ ] Configurar Testcontainers com Postgres real (não H2)
-- [ ] Escrever teste de repository (persistência JPA real)
-- [ ] Escrever teste de segurança (fluxo JWT — geração/validação de token, RBAC por role)
-- [ ] Entender: `@SpringBootTest`, contexto Spring real, diferença unit vs integration
+- [ok] Configurar Testcontainers com Postgres real (não H2)
+- [ok] Escrever teste de repository (persistência JPA real)
+- [ok] Escrever teste de segurança (fluxo JWT — geração/validação de token, RBAC por role)
+- [ok] Entender: `@SpringBootTest`, contexto Spring real, diferença unit vs integration
 
 ## Bloco 3 — Teste E2E/API
 
