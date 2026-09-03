@@ -40,9 +40,9 @@ Objetivo: aprender testes automatizados do zero, entendendo o "porquê" de cada 
 ## Bloco 4 — CI
 
 - [ok] Criar workflow GitHub Actions (`.github/workflows/tests.yml`)
-- [ ] Rodar os 3 níveis de teste a cada push/PR (falta confirmar rodando de verdade no GitHub)
+- [ok] Rodar os 3 níveis de teste a cada push/PR (confirmado rodando no GitHub Actions)
 - [ok] Configurar JaCoCo, gerar relatório de cobertura
-- [ ] Entender: pipeline, gate de qualidade, feedback automático
+- [ok] Entender: pipeline, gate de qualidade, feedback automático
 
 ## Ordem de execução
 
