@@ -32,16 +32,16 @@ Objetivo: aprender testes automatizados do zero, entendendo o "porquê" de cada 
 
 ## Bloco 3 — Teste E2E/API
 
-- [ ] Escrever `AppointmentFlowTest` com RestAssured
+- [ok] Escrever `AppointmentFlowTest` com RestAssured
   - Fluxo completo: login → token → criar agendamento → validar resposta HTTP
-- [ ] Rodar app inteira localmente, testar como cliente HTTP externo
-- [ ] Entender: diferença integration vs e2e, quando cada um vale o custo
+- [ok] Rodar app inteira localmente, testar como cliente HTTP externo
+- [ok] Entender: diferença integration vs e2e, quando cada um vale o custo
 
 ## Bloco 4 — CI
 
-- [ ] Criar workflow GitHub Actions (`.github/workflows/tests.yml`)
-- [ ] Rodar os 3 níveis de teste a cada push/PR
-- [ ] Configurar JaCoCo, gerar relatório de cobertura
+- [ok] Criar workflow GitHub Actions (`.github/workflows/tests.yml`)
+- [ ] Rodar os 3 níveis de teste a cada push/PR (falta confirmar rodando de verdade no GitHub)
+- [ok] Configurar JaCoCo, gerar relatório de cobertura
 - [ ] Entender: pipeline, gate de qualidade, feedback automático
 
 ## Ordem de execução
